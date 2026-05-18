@@ -1,0 +1,10 @@
+category,owner,tier,example_issue
+Inventory Issue,Procurement Team,Tier 2,Out of stock / shortage / replenishment
+Customer Complaint,Customer Support Team,Tier 2,Customer complaint / refund / bad experience
+Delivery Issue,Logistics Team,Tier 1,Late driver / shipment delay / not arrived
+Store Operations,Store Manager,Tier 1,Store hours / staff / shelf / display issue
+System Issue,IT Team,Tier 2,Login error / system bug / dashboard crash
+Pricing or Promotion Issue,Commercial Team,Tier 1,Wrong price / coupon / promotion setup
+Payment Issue,Finance Team,Tier 2,Payment failure / duplicated charge / invoice issue
+Food Safety or Quality Issue,Quality Assurance Team,Tier 2,Expired / damaged / spoiled product
+General FAQ,AI Bot,Tier 0,Simple policy or process question

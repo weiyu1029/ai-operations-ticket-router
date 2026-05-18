@@ -1,0 +1,6 @@
+message,expected_category,expected_owner,expected_tier
+The store is out of milk and customers are complaining.,Inventory Issue + Customer Complaint,Procurement Team + Customer Support Team,Tier 2
+The driver is late and the order has not arrived.,Delivery Issue,Logistics Team,Tier 1
+系統無法登入，店長說訂單也沒辦法確認,System Issue + Store Operations,IT Team + Store Manager,Tier 2
+How do I update store opening hours?,Store Operations,Store Manager,Tier 1
+顧客說商品過期而且要求退款,Food Safety or Quality Issue + Customer Complaint,Quality Assurance Team + Customer Support Team,Tier 2
