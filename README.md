@@ -1,4 +1,4 @@
-# 🤖 AI Operations Ticket Routing System
+#  AI Operations Ticket Routing System
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -10,7 +10,7 @@ An operations workflow automation project that classifies LINE user messages, as
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project simulates an internal operations support system for retail, logistics, and store operations teams.
 
@@ -20,7 +20,7 @@ It was designed as a portfolio project to demonstrate chatbot integration, workf
 
 ---
 
-## 💼 Business Problem
+##  Business Problem
 
 Operations teams often receive large volumes of unstructured messages from stores, customers, drivers, and internal teams.
 
@@ -39,7 +39,7 @@ Without automation, these messages require manual review, routing, and follow-up
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - LINE chatbot integration
 - Webhook-based Flask backend
@@ -54,7 +54,7 @@ Without automation, these messages require manual review, routing, and follow-up
 
 ---
 
-## 🧠 Tier Logic
+##  Tier Logic
 
 | Tier | Meaning | Example |
 |---|---|---|
@@ -64,7 +64,7 @@ Without automation, these messages require manual review, routing, and follow-up
 
 ---
 
-## 👥 Owner Mapping
+##  Owner Mapping
 
 | Category | Responsible Owner | Tier |
 |---|---|---|
@@ -80,7 +80,7 @@ Without automation, these messages require manual review, routing, and follow-up
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 <img src="images/architecture.png" width="850">
 
@@ -106,7 +106,7 @@ Daily Summary
 
 ---
 
-## 📸 Demo
+##  Demo
 
 ### LINE Chatbot Demo
 
@@ -119,7 +119,7 @@ Daily Summary
 ### Example Bot Output
 
 ```txt
-🤖 AI Operations Router
+ AI Operations Router
 
 Message received:
 "The store is out of milk and customers are complaining."
@@ -129,7 +129,7 @@ Category: Customer Complaint | Inventory Issue | Store Operations
 Responsible Owner: Customer Support Team | Procurement Team | Store Manager
 Tier Level: Tier 2
 
-🚨 This issue requires urgent escalation.
+ This issue requires urgent escalation.
 
 Suggested Actions:
 - Inventory Issue: Check inventory levels, confirm replenishment plan, and notify the store manager.
@@ -137,12 +137,12 @@ Suggested Actions:
 - Store Operations: Route to the store manager for operational follow-up.
 
 Ticket Status:
-✅ Logged successfully
+ Logged successfully
 ```
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python
 - Flask
@@ -153,7 +153,7 @@ Ticket Status:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```txt
 ai-operations-ticket-router/
@@ -181,7 +181,7 @@ ai-operations-ticket-router/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Install dependencies
 
@@ -229,7 +229,7 @@ https://your-cloudflare-url.trycloudflare.com/callback
 
 ---
 
-## 🧪 Sample Test Messages
+##  Sample Test Messages
 
 ```txt
 The store is out of milk and customers are complaining.
@@ -269,7 +269,7 @@ Tier: Tier 2
 
 ---
 
-## 📄 Ticket Log
+##  Ticket Log
 
 The system automatically logs every routed message into:
 
@@ -285,7 +285,7 @@ timestamp,user_message,categories,owners,tier,matched_keywords
 
 ---
 
-## 📊 Daily Summary
+##  Daily Summary
 
 Generate a summary report:
 
@@ -301,7 +301,7 @@ outputs/daily_summary.txt
 
 ---
 
-## 🔐 Security Notes
+##  Security Notes
 
 Do not commit `.env` or real API credentials to GitHub.
 
@@ -311,7 +311,7 @@ If a token is accidentally exposed, rotate it immediately in the LINE Developers
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 - Add OpenAI-based intent classification
 - Generate daily email summaries
